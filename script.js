@@ -79,3 +79,30 @@ progress.addEventListener("click", (e) => {
         (clickX / width) * duration;
 
 });
+
+const aboutBtn = document.getElementById("aboutBtn");
+const popupInfo = document.getElementById("popupInfo");
+const closeInfo = document.querySelector(".close-info");
+
+aboutBtn.addEventListener("click", () => {
+
+    popupInfo.classList.add("show");
+
+});
+
+closeInfo.addEventListener("click", () => {
+
+    popupInfo.classList.remove("show");
+
+});
+
+popupInfo.addEventListener("click", (e) => {
+
+    if(e.target === popupInfo){
+
+        popupInfo.classList.remove("show");
+
+    }
+
+});
+
