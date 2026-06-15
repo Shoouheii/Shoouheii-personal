@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taoki_hu</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+<body>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <div class="logo">My Profile 人</div>
+
+            <div class="menu">
+                <a href="#">Live Stream 🪼</a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+
+            <div class="music-player">
+
+                <button id="musicBtn">▶</button>
+
+                <div class="song-info">
+                    <h4>VwV</h4>
+                    <p>Music area 🐧</p>
+
+                    <div class="progress">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+
+                <audio id="bgMusic" autoplay loop>
+                    <source src="assets/music.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+
+            <button class="btn-primary" id="aboutBtn">?</button>
+
+        </nav>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <h1>Welcome</h1>
+
+                <p>A quiet soul with big dreams.</p>
+                <p>Coding, gaming, and working in Japan.</p>
+
+                <button class="read-more-btn">
+                    Read More
+                    <span>→</span>
+                </button>
+
+            </div>
+
+            <img src="assets/profile 1.png" alt="Profile">
+
+        </section>
+
+        <section class="grid">
+
+            <div class="card">
+
+                <h3>Gallery</h3>
+
+                <div class="artworks" id="gallery"></div>
+
+            </div>
+
+            <div class="card">
+
+                <h3>My Links</h3>
+
+                <div class="links">
+
+                    <a href="https://discord.gg/YKjUXzT3tj">
+                        <img src="assets/Discord icon.jpg" class="link-icon">
+                        Discord
+                    </a>
+
+                    <a href="https://www.instagram.com/taoki_hu/">
+                        <img src="assets/Instagram icon.jpg" class="link-icon">
+                        Instagram
+                    </a>
+
+                    <a href="https://x.com/ChielHuft">
+                        <img src="assets/X icon.jpg" class="link-icon">
+                        X (Twiter)
+                    </a>
+
+                    <a href="https://steamcommunity.com/id/Shoouheii/">
+                        <img src="assets/Steam icon.jpg" class="link-icon">
+                        Steam
+                    </a>
+
+                    <a href="https://www.youtube.com/@shoouheii">
+                        <img src="assets/Youtube icon.jpg" class="link-icon">
+                        Youtube Channel
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="card" id="about">
+
+                <h3>About Me</h3>
+
+                <div class="info">
+
+                    <div class="info-box">
+                        <h4>➕ | Work at</h4>
+                        <p>Snow Food</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>➕ | Location</h4>
+                        <p>🇯🇵 日本 | Hokkaido | Sapporo</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>➕ | Community SEA</h4>
+                        <p>Discord | Persona | Valorant</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Popup Gallery -->
+
+    <div class="popup" id="popup">
+        <span class="close-popup">&times;</span>
+        <img id="popup-image">
+    </div>
+
+    <!-- Popup FAQ -->
+
+    <div class="popup-info" id="popupInfo">
+
+        <div class="popup-content">
+
+            <span class="close-info">&times;</span>
+
+            <h2>FAQ</h2>
+
+            <p><strong>Q:</strong> Siapa kamu?</p>
+            <p><strong>A:</strong> Shoouheii.</p>
+
+            <br>
+
+            <p><strong>Q:</strong> Apa tujuan website ini?</p>
+            <p><strong>A:</strong> Sebagai profile dan kumpulan link saya.</p>
+
+            <br>
+
+            <p><strong>Q:</strong> Kenapa ada musik?</p>
+            <p><strong>A:</strong> Untuk menambah suasana saat berkunjung.</p>
+
+            <br>
+
+            <p><strong>Q:</strong> Bagaimana menghubungi saya?</p>
+            <p><strong>A:</strong> Melalui Discord atau media sosial yang tersedia.</p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
